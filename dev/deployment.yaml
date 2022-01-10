@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: quay.io/jitesoft/nginx:1.7.2
+        image: registry.gitlab.com/jitesoft/dockerfiles/nginx
         ports:
         - containerPort: 80
